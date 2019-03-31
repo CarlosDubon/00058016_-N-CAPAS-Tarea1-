@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Righteous', cursive;
+}
+.paralax{
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.text-paralax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+.text-paralax p{
+    text-align: justify;
+    font-weight: 100;
+    padding: 0em 3em;
+}
+.paralax:first-child{
+    background-image: url('images/3.jpg')
+}
+.paralax:nth-child(3){
+    background-image: url('images/4.jpg')
+}
+.paralax:nth-child(4){
+    background-image: url('images/5.jpg')
+}
+.title{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 2em;
+    background: #353b48;
+    width: 35%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
